@@ -430,8 +430,8 @@ function FlatpickrInstance(
     if (!self.config.inline && !self.config.static)
       bind(window, "resize", debouncedResize);
 
-    if (window.ontouchstart !== undefined)
-      bind(window.document, "click", documentClick);
+    // if (window.ontouchstart !== undefined)
+      // bind(window.document, "click", documentClick);
     else bind(window.document, "mousedown", onClick(documentClick));
     bind(window.document, "focus", documentClick, { capture: true });
 

@@ -73,5 +73,8 @@
     "ie >= 9",
     "last 2 versions",
     "safari >= 7"
-  ]
+  ],
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
 }
